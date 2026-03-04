@@ -1,0 +1,41 @@
+
+.information1 {
+    display: none;
+    margin-top: 20px;
+}
+
+.information1.show {
+    display: block;
+}
+
+.slides1 {
+    display: none;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+.slides1.show {
+    display: block;
+}
+
+
+.information2 {
+    display: none;
+    margin-top: 20px;
+}
+
+.information2.show {
+    display: block;
+}
+
+.slides2 {
+    display: none;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+.slides2.show {
+    display: block;
+}
