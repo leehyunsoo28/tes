@@ -211,50 +211,67 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 #aboutH2 { font-size: 70px; }
 #about .etc { font-size: 18px; font-family: "Noto Sans KR"; }
 
-/* who am i */
-.whoami { position: absolute; top: 150px; left: 300px; display: flex; }
-#aboutH3 { position: absolute; top: 200px; left: 300px; font-size: 30px; }
-.whoami p:nth-child(1) { font-size: 18px; margin-top: 150px; font-family: "Noto Sans KR"; }
-.whoami p:nth-child(2) { font-size: 18px; margin-top: 150px; margin-left: 100px; font-family: "Noto Sans KR"; }
 
-/* skill */
-.skill { position: absolute; top: 115px; left: 0px; }
-#skillH3 { position: absolute; top: 200px; left: 1018px; font-size: 30px; }
-.skill p { font-size: 18px; margin-top: 180px; margin-left: 1018px; line-height: 25px; }
-.skill div:nth-of-type(1) { width: 233px; height: 21px; background-color: white; position: absolute; top: 184px; left: 1200px; }
-.skill div:nth-of-type(2) { width: 140px; height: 21px; background-color: white; position: absolute; top: 233px; left: 1200px; }
-.skill div:nth-of-type(3) { width: 260px; height: 21px; background-color: white; position: absolute; top: 280px; left: 1200px; }
-.skill div:nth-of-type(4) { width: 167px; height: 21px; background-color: white; position: absolute; top: 329px; left: 1200px; }
-.skill div:nth-of-type(5) { width: 140px; height: 21px; background-color: white; position: absolute; top: 380px; left: 1200px; }
 
-@keyframes motion1{
-	0% { width: 0px; opacity: 0; }
-	100% { width: 233px; opacity: 1; }
-}
 
-@keyframes motion2{
-	0% { width: 0px; opacity: 0; }
-	100% { width: 140px; opacity: 1; }
-}
-
-@keyframes motion3{
-	0% { width: 0px; opacity: 0; }
-	100% { width: 260px; opacity: 1; }
-}
-
-@keyframes motion4{
-	0% { width: 0px; opacity: 0; }
-	100% { width: 167px; opacity: 1; }
-}
-
-@keyframes motion5{
-	0% { width: 0px; opacity: 0; }
-	100% { width: 140px; opacity: 1; }
-}
 
 /* 자소서, 이력서 */
-.cover_letter { position: absolute; top: 550px;  border: 1px solid white; font-size: 20px; }
-.resume { position: absolute; top: 550px;  border: 1px solid white; }
+
+.cover_letter { position: absolute; top: 120px; /* border: 1px solid white; */ font-size: 20px; background-color: black; color: white; }
+.cover_letter:hover { background-color: white; transition: 1s; color: black; }
+.resume { position: absolute; top: 120px; left: 120px; /* border: 1px solid white; */ font-size: 20px; background-color: black; color: white; }
+.resume:hover { background-color: white; transition: 1s; color: black;  }
+
+
+
+.information1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.information1.show {
+    display: none;
+}
+
+.slides1 {
+    display: none;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+.slides1.show {
+    display: block;
+}
+
+
+.information2 {
+    display: none;
+    margin-top: 20px;
+}
+
+.information2.show {
+    display: block;
+}
+
+.slides2 {
+    display: none;
+    padding: 20px;
+    border: 1px solid #333;
+    margin-top: 10px;
+}
+
+.slides2.show {
+    display: block;
+}
+
+.rkclrhks { border: solid 1px #333; }
+
+
+
+
+
+
 
 /* works */
 #worksH2 { font-size: 70px; }
