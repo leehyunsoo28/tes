@@ -217,11 +217,38 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 
 /* 자소서, 이력서 */
 
-.cover_letter { position: absolute; top: 120px; /* border: 1px solid white; */ font-size: 20px; background-color: black; color: white; }
-.cover_letter:hover { background-color: white; transition: 1s; color: black; }
-.resume { position: absolute; top: 120px; left: 120px; /* border: 1px solid white; */ font-size: 20px; background-color: black; color: white; }
-.resume:hover { background-color: white; transition: 1s; color: black; }
+.cover_letter { position: absolute; top: 14px; right: 143px; font-size: 30px; background-color: black; color: white; border: solid 1px white; height: 88px; width: 190px; transition: 1s; }
+.cover_letter:hover { background-color: white; color: black; cursor: pointer; }
 
+.resume { position: absolute; top: 14px; right: 1px; font-size: 30px; background-color: black; color: white; border: solid 1px white; height: 88px; width: 140px;transition: 1s; }
+.resume:hover { background-color: white; color: black; cursor: pointer; }
+
+/* 자기소개서 */
+.rkclrhks h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+.rkclrhks p { position: absolute; font-size: 15px; top: 185px; left: 600px; border: 1px solid block; line-height: 2; }
+
+.vmfhwprrxm h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+.vmfhwprrxm p { position: absolute; font-size: 15px; top: 185px; left: 600px; border: 1px solid block; line-height: 2; }
+
+.tjdrur h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+.tjdrur p { position: absolute; font-size: 15px; top: 185px; left: 600px; border: 1px solid block; line-height: 2; }
+
+.wldnjsehdrl h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+.wldnjsehdrl p { position: absolute; font-size: 15px; top: 185px; left: 600px; border: 1px solid block; line-height: 2; }
+
+/* 자소서 버튼 */
+.before1 { position: absolute; font-size: 20px; width: 100px; height: 70px; top: 415px; left: 100px; background-color: black; color: white; border: 1px solid white; transition: 1s; border-radius: 20px; }
+.before1:hover { background-color: white; color: black; cursor: pointer; }
+.next1 { position: absolute; font-size: 20px; width: 100px; height: 70px; top: 415px; left: 280px; background-color: black; color: white; border: 1px solid white; transition: 1s; border-radius: 20px; }
+.next1:hover { background-color: white; color: black; cursor: pointer; }
+
+/* 이력서 */
+.WAI {  }
+.education {  }
+.certifications {  }
+.skill {  }
+
+/* 이력서 버튼*/
 
 
 .information1 {
@@ -236,7 +263,6 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 .slides1 {
     display: none;
     padding: 20px;
-    border: 1px solid #333;
     margin-top: 10px;
 }
 
@@ -257,7 +283,6 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 .slides2 {
     display: none;
     padding: 20px;
-    border: 1px solid #333;
     margin-top: 10px;
 }
 
@@ -265,7 +290,6 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
     display: block;
 }
 
-.rkclrhks { border: solid 1px #333; }
 
 
 
