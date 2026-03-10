@@ -243,13 +243,24 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 .next1:hover { background-color: white; color: black; cursor: pointer; }
 
 /* 이력서 */
-.WAI {  }
-.education {  }
-.certifications {  }
-.skill {  }
+.WAI h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+.WAI table { border-collapse: collaps; }
+.WAI table tr, td { border: 1px solid white; }
+
+.education h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+
+
+.certifications h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+
+
+.skill h1 { position: absolute; font-size: 50px; top: 185px; left: 100px; border: 1px solid block; }
+
 
 /* 이력서 버튼*/
-
+.before2 { position: absolute; font-size: 20px; width: 100px; height: 70px; top: 415px; left: 100px; background-color: black; color: white; border: 1px solid white; transition: 1s; border-radius: 20px; }
+.before2:hover { background-color: white; color: black; cursor: pointer; }
+.next2 { position: absolute; font-size: 20px; width: 100px; height: 70px; top: 415px; left: 280px; background-color: black; color: white; border: 1px solid white; transition: 1s; border-radius: 20px; }
+.next2:hover { background-color: white; color: black; cursor: pointer; }
 
 .information1 {
     display: block;
@@ -430,6 +441,15 @@ font-size: 30px; font-family: 'bodoni'; animation: visual_transparency 3s 4s bac
 
 
 
+.container{
+    display:flex;
+}
 
+.box{
+    border:1px solid black;
+    padding:5px;
+    width:50px;
+    text-align:center;
+}
 
 
